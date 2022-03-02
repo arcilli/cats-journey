@@ -7,3 +7,13 @@ lazy val root = (project in file("."))
     name := "cats-journey",
     idePackagePrefix := Some("org.arrnaux")
   )
+
+val catsVersion = "2.7.0"
+
+libraryDependencies ++= Seq(
+  "org.typelevel" %% "cats-core" % catsVersion
+)
+
+scalacOptions ++= Seq(
+  "-language:higherKinds"
+)
