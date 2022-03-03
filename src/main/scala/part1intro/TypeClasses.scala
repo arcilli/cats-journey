@@ -1,5 +1,5 @@
 package org.arrnaux
-package part1recap
+package part1intro
 
 object TypeClasses {
 
