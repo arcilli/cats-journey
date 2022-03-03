@@ -78,6 +78,6 @@ object TCVariance{
 
   def main(args: Array[String]): Unit = {
     println(organizeShow[Cat])      // ok - the compiler will inject CatsShow as implicit
-    //println(organizeShow[Animal]) // this will not compile - ambigous because we have 2 potential implicits
+    //println(organizeShow[Animal]) // this will not compile - ambiguous because we have 2 potential implicits
   }
 }
